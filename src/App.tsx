@@ -1,3 +1,4 @@
+import Five from './Five';
 import Four from './Four';
 import One from './One';
 import Three from './Three';
@@ -10,6 +11,7 @@ function App() {
       <Two />
       <Three />
       <Four />
+      <Five />
     </>
   );
 }
