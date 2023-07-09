@@ -6,8 +6,8 @@ const USERS = [
 
 const Two = () => {
   return (
-    <section>
-      <h2>2: display all users to the browser</h2>
+    <section aria-labelledby="two">
+      <h2 id="two">2: display all users to the browser</h2>
       <ul>
         {USERS.map((user) => (
           <li key={user.id}>{user.name}</li>
