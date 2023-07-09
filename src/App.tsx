@@ -1,5 +1,11 @@
+import One from './One';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <One />
+    </>
+  );
 }
 
 export default App;
