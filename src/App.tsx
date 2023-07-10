@@ -5,6 +5,7 @@ import Nine from './Nine';
 import One from './One';
 import Seven from './Seven';
 import Six from './Six';
+import Ten from './Ten';
 import Three from './Three';
 import Two from './Two';
 
@@ -20,6 +21,7 @@ function App() {
       <Seven />
       <Eight />
       <Nine />
+      <Ten />
     </>
   );
 }
